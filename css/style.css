@@ -1,0 +1,34 @@
+/* fonts google */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;700&family=Poppins:wght@100;200;300;400;600&display=swap');
+
+/* globals */
+
+:root {
+    --heebo: 'Heebo', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+    --blue: #2D9CDB;
+    --btn-gray: #E0E0E0;
+    --footer-purple: #100E1D;
+    --gray-1: #333333;
+    --gray-2: #4F4F4F;
+    --gray-3: #828282;
+    --gray-4: #BDBDBD;
+    --gray-6: #F2F2F2;
+    --green: #27AE60;
+    --terracota: #EB5757;
+    --white: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body{
+    margin: 5.5rem 0 0;
+    padding: 0;
+}
