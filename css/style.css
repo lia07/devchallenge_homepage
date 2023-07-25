@@ -32,3 +32,26 @@ body{
     margin: 5.5rem 0 0;
     padding: 0;
 }
+
+/* start fonts */
+
+.header-logo{
+    font-family: var(--heebo);
+    font-weight: 800;
+}
+
+/* end fonts*/
+
+/* start header */
+.header{
+    padding: .725rem 1rem 0 .65rem;
+    position: fixed;
+    z-index: 110;
+    width: 100%;
+    top: 0;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* start header */
