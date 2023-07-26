@@ -54,4 +54,30 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.header-logo{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-logo{
+    cursor: pointer;
+    height: 1.56rem;
+    height: 1.56rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 /* start header */
+.nav{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 0;
+    font-size: 1.1rem;
+    transition: all .8s;
+}
